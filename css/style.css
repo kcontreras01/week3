@@ -13,24 +13,28 @@ body {
 
 header {
 	width: 100%;
-	margin: auto;
+	margin: 0 auto;
 }
-nav {
+
+#topnav {
 	background-color: #222222;
 	width: 100%;
-	padding-left: 80px;
+	overflow: auto;
 }
 
-nav a {
-	width: 80px;
+#topnav a {
+	float: left;
+	/*display: inline-block;*/
 	color: #cccccc;
+	width: 90px;
+	text-align: center;
+	padding: 30px 3px 30px;
 	text-decoration: none;
-	display: inline-block;
-	margin: 30px;
-	padding: -10px;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
-nav a:hover{
+#topnav a:hover{
 	color:#1fA2E1;
 	background-color: #222222;
 }
@@ -42,49 +46,117 @@ section {
 	background-size: cover;
   	background-repeat: no-repeat;
   	background-position: center;
-
 }
+
 h1 {
 	float: left;
-	display: block;
-	font-family: "Permanent Marker", cursive;
+	display: inline-block;
+	margin-left: 100px;
 }
 
 h2 {
 	width: 290px;
+	display: inline-block;
 	font-family: "Permanent Marker", cursive;
+	padding: 20px 0 20px;
 }
 
-#titlespace {
-	width: 960px;
-	margin-left: 50px;
+h3 {
+	color: #cccccc;
+	font-family: "Permanent Marker", cursive;
+	padding: 10px 0 10px;
 }
 
-#social {
-	float: right;
+ul {
+	list-style: none;
 }
 
-#articles {
-	background-color: #eeeeee;
-}
-
-#size1 {
-	height: px;
+footer{
+	clear: auto;
+	display: inline-block;
+	width: 100%;
+	background-color: #222222;
+	padding-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 blockquote {
 	width: 960px;
 	border-style: solid;
 	border-color: #eeeeee; 
+	clear: auto;
+	padding: 30px 10px 30px 5px;
+	display: inline-block;
+}
+
+article img {
+	border-style: solid;
+	border-color: #eeeeee;
+}
+
+article a {
+	text-decoration: none;
+}
+
+article p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#titlespace {
+	width: 960px;
+	/*padding-left: 50px;*/
+	/*margin-left: 50px;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#social {
+	float: right;
+	padding-right: 170px;
+	display: inline-block;
+}
+
+#articles {
+	background-color: #eeeeee;
+	display: block;
+}
+
+#size1, #size2 {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#size2 {
+	/*clear:auto;*/
+	background-color: #222222;
+	/*display: inline-block;*/
+	width: 960px;
+	color: #aaaaaa;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #article1, #article2, #article3 {
 	/*border-style: solid;*/
 	/*border-color: #eeeeee;*/
 	width: 290px;
-	font-size:;
 	float: left;
+	padding-right: 30px;
 
+}
+
+#widget1, #widget3 {
+	float: left;
+	width: 210px;
+}
+
+#widget2 {
+	float: left;
+	width: 400px;
+	padding-right: 20px;
 }
 
 
